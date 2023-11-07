@@ -1,0 +1,108 @@
+#top-bar{
+    width:100%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(images/main-image.png);
+    background-size:100%;
+    position: relative;
+}
+#img-text{
+    width:40%;
+    height:40%;
+    position: relative;
+    left:6%;
+    top:20%
+}
+#img-title{
+    font-size: 60px;
+    font-family: 'Inter', sans-serif;
+}
+#sub-text{
+    font-size: 18px;
+}
+#app-talk{
+    position: relative;
+    left:6%;
+    top:25%;
+    display: flex;
+    height:59px;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#app-button{
+    height: fit-content;
+    width: fit-content;
+}
+#book-button{
+    height:59px;
+    width:240px;
+    background-color:  var(--green,#17c1a3);
+    /* border-radius: 5px; */
+    border: none;
+    position: relative;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    box-shadow:1px 1px 1px 1px #f5f5f5;
+    border-radius: 5px;
+      }
+#book-button:hover{
+    box-shadow:1px 1px 1px 1px #949494;
+}
+#play-button{
+    width: 28px;
+    position: relative;
+    top:100%
+}
+#talk{
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    height: 0px;
+    width: 120px;
+}
+#dt{
+    font-size: 15px;
+}
+#form{
+    border: 2px solid rgb(255, 255, 255);
+    width:73%;
+    height:fit-content;
+    border-radius: 10px;
+    position: absolute;
+    top:88%;
+    left:12%;
+    background-color: white;
+    padding:20px
+}
+.tbox{
+    height:50px !important;
+    width:290px !important;
+    margin: 10px !important;
+}
+#form-title{
+    font-size: 23px;
+    padding-left: 11px;
+    padding-top: 10px;
+}
+select{
+    margin:0;
+}
+.tbox1{
+    height:52px !important;
+    width:299px !important;
+    margin: 11px !important;
+}
+input,
+input::placeholder {
+    font: 16px sans-serif;
+    padding-left: 6px;
+}
+option{
+    font: 16px sans-serif;
+    padding-left: 6px;
+}
+
